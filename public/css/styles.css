@@ -1,0 +1,35 @@
+body{
+    display: contents;
+}
+header{
+    display: flex;
+    width: 100%;
+    /*background-color: rgb(185, 230, 230);*/
+    background: linear-gradient(70deg, rgb(72, 155, 155), rgb(211, 232, 235));
+    
+}
+header h2{
+    font-size: 1.5rem;
+    font-style: italic;
+    color: white;
+    
+}
+section main article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section main article div.image-article img{
+    width: 100%;
+}
+section main article div.turno{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: rgba(131, 185, 199, 0.795);
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgb(127, 180, 180)
+}
